@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnTraining"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View training schedules  upcoming games" />
+
+    <Button
+        android:id="@+id/btnStatistics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Track team statistics  player performance"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnCommunication"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Communicate with coaches  teammates"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
